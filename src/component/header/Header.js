@@ -34,6 +34,14 @@ const Header = () => {
                     Blogs
                 </NavLink>
                 <NavLink className={'mx-5'}
+                    to="dashboard"
+                    style={({ isActive }) =>
+                        isActive ? activeStyle : undefined
+                    }
+                >
+                    Dashboard
+                </NavLink>
+                <NavLink className={'mx-5'}
                     to="about"
                     style={({ isActive }) =>
                         isActive ? activeStyle : undefined

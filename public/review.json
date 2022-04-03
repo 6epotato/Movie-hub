@@ -1,32 +1,44 @@
 [
     {
         "id": 1,
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Zack_Snyder_by_Gage_Skidmore_2.jpg/1200px-Zack_Snyder_by_Gage_Skidmore_2.jpg",
         "name": "Jack Snider",
+        "rating": 4.5,
         "description": "Best movie of the franchise, no questions asked (besides the memes about the baby). I love this movie. It focuses on only 3 animals compared to the more crowded, newer movies but is just as, if not more interesting than the others"
     },
     {
         "id": 2,
+        "img": "https://cdn.britannica.com/76/156176-050-90A36E79/Martin-Scorsese-2008.jpg?w=400&h=300&c=crop",
         "name": "Martin Scorsese",
+        "rating": 3.5,
         "description": "Ice age is truly a childhood legend of a series. I hope that generations upon generations gaze their eyes on such a masterpiece it was. "
     },
     {
         "id": 3,
+        "img": "https://media.vanityfair.com/photos/610aa5ba0520d092230081b7/master/pass/ethan-coen-joel-coen-oscars-tout.jpg",
         "name": "Joel & Ethan Coen",
+        "rating": 4.5,
         "description": " I love this movie So MUCH! I have watched the whole series and am super excited for ice age adventures of buck wild to come out next year "
     },
     {
         "id": 4,
+        "img": "https://c.files.bbci.co.uk/126D/production/_115971740_soderbergh_alamy.jpg",
         "name": "Steven Soderbergh",
+        "rating": 5.0,
         "description": "Love this film even to this day. Really great characters, I know the animation would be considered outdated but its still not bad and the movements of the characters are very good. The story is pretty good."
     },
     {
         "id": 5,
+        "img": "https://images.mubicdn.net/images/cast_member/1612/cache-88427-1524923239/image-w856.jpg?size=800x",
         "name": "Terrence Malick",
+        "rating": 4.5,
         "description": "A few days ago, Ice Age turned 20 years old! That is completely mindblowing, as I will be turning 21 this year. I have seen this movie my whole life and still, it gives me so much excitement."
     },
     {
         "id": 6,
+        "img": "https://cdn.vox-cdn.com/thumbor/cbJetqonXrrJJyxjbl8jZ1W0TeI=/9x0:3693x2763/1200x800/filters:focal(9x0:3693x2763)/cdn.vox-cdn.com/uploads/chorus_image/image/50035529/493618897.0.jpg",
         "name": "JAbbas Kiarostami",
+        "rating": 5.0,
         "description": "I've watched it about several times and I absolutely love it. It's great and funny. It is one of my favourite animated films of all time."
     }
 ]

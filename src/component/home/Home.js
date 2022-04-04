@@ -1,8 +1,14 @@
 import React from 'react';
 import image from './image.jpg'
 import './Home.css'
+import useReview from '../../hook/useReview';
+import HomePageReview from '../homePageReview/HomePageReview';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
+    const [reviews, setReview] = useReview();
+    const slicedReview = reviews.slice(0, 3);
+    // console.log(slicedReview);
     return (
         <div>
             <div className=' grid grid-cols-2'>
@@ -16,6 +22,18 @@ const Home = () => {
                 <div className='main-image pl-24 py-12'>
                     <img src={image} alt="" />
                 </div>
+            </div>
+            <div>
+                <h1 className='flex justify-center'>Customer review </h1>
+                <div className='grid grid-cols-3'>
+                    {
+                        slicedReview.map(homeReview => <HomePageReview
+                            key={homeReview.id}
+                            homeReview={homeReview}
+                        ></HomePageReview>)
+                    }
+                </div>
+                <Link to={'review'}><button >More Review</button></Link>
             </div>
         </div>
     );

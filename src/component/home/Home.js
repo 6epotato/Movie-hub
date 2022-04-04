@@ -25,7 +25,7 @@ const Home = () => {
             </div>
             <div>
                 <h1 className='flex justify-center py-7 font-bold text-2xl font-serif'>Customer review (3) </h1>
-                <div className='grid grid-cols-3'>
+                <div className='grid grid-cols-3 gap-4'>
                     {
                         slicedReview.map(homeReview => <HomePageReview
                             key={homeReview.id}

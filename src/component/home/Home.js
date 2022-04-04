@@ -24,7 +24,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <h1 className='flex justify-center'>Customer review </h1>
+                <h1 className='flex justify-center py-7 font-bold text-2xl font-serif'>Customer review (3) </h1>
                 <div className='grid grid-cols-3'>
                     {
                         slicedReview.map(homeReview => <HomePageReview
@@ -33,7 +33,13 @@ const Home = () => {
                         ></HomePageReview>)
                     }
                 </div>
-                <Link to={'review'}><button >More Review</button></Link>
+                <div className='flex justify-center py-9'>
+                    <Link to={'/review'}>
+                        <button class="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded">
+                            More Review...
+                        </button>
+                    </Link>
+                </div>
             </div>
         </div>
     );

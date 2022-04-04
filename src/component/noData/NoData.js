@@ -1,9 +1,9 @@
 import React from 'react';
-
+import noData from './noData.jpg'
 const NoData = () => {
     return (
         <div>
-            <h1> 404,No Data found</h1>
+            <img className='mx-auto' src={noData} alt="" />
         </div>
     );
 };

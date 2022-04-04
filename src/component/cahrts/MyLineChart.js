@@ -2,41 +2,42 @@ import React from 'react';
 import { CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
 
 const MyLineChart = () => {
+    // here cell column is updated
     const MyLinChartData = [
         {
             "month": "Mar",
             "investment": 100000,
-            "sell": 241,
+            "sell": 24100,
             "revenue": 10401
         },
         {
             "month": "Apr",
             "investment": 200000,
-            "sell": 423,
+            "sell": 42300,
             "revenue": 24500
         },
         {
             "month": "May",
             "investment": 500000,
-            "sell": 726,
+            "sell": 72600,
             "revenue": 67010
         },
         {
             "month": "Jun",
             "investment": 500000,
-            "sell": 529,
+            "sell": 52900,
             "revenue": 40405
         },
         {
             "month": "Jul",
             "investment": 600000,
-            "sell": 601,
+            "sell": 60100,
             "revenue": 50900
         },
         {
             "month": "Aug",
             "investment": 700000,
-            "sell": 670,
+            "sell": 67000,
             "revenue": 61000
         }
     ]

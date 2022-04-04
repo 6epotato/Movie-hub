@@ -11,7 +11,7 @@ const Home = () => {
     // console.log(slicedReview);
     return (
         <div>
-            <div className=' grid grid-cols-2'>
+            <div className=' grid grid-cols-2 '>
                 <div>
                     <div className='text-5xl font-extrabold text-center font-sans pt-48'>
                         <h1 className='text-sky-700 '>Ice-Age-2002</h1>

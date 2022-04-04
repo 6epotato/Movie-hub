@@ -1,9 +1,9 @@
-#Movie-Hub
+# Movie-Hub
 
 
-##Live webiste link (https://fluffy-madeleine-5a9581.netlify.app)
+## Live webiste link (https://fluffy-madeleine-5a9581.netlify.app)
 
-###About This website 
+### About This website 
 * It has a navbar uses Link. 
 * It has summery of reviews in Home Page when You click on more review button You will see all the reviews.
 * It has a Dashboard Where 2 Chart is available.
